@@ -10,3 +10,72 @@ html, body {
     min-height: 100vh;
     justify-content: space-between;
 }
+
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.header-search {
+    display: flex;
+    padding: 20px 0px 0px 30px;
+    align-items: center;
+}
+
+.search-box {
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    min-width: 630px;
+    height: 44px;
+    border-radius: 24px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: lightgray;
+    outline: none;
+    margin: 0px 0px 0px 30px;
+}
+
+.search-box:hover {
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+.search-form {
+    display: flex;
+    width: 530px;
+    height: 20px;
+    font-size: 16px;
+    border: 0px solid white;
+    margin-left: 15px;
+    outline: none;
+}
+
+.google-mic {
+    margin: 2px 0px 0px 1px
+}
+
+.google-mic img {
+    width: 30px;
+}
+
+.google-glass {
+    margin: 2px 0px 0px 17px
+}
+
+.google-glass img {
+    width: 24px;
+    margin: 1px;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 44px;
+    width: 780px;
+}
