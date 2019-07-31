@@ -79,3 +79,53 @@ html, body {
     height: 44px;
     width: 780px;
 }
+
+.apps {
+    opacity: .55;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.apps img {
+    width: 24px;
+}
+
+.apps:hover {
+    opacity: 100;
+}
+
+.sign-in {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: white !important;
+    font-size: 13px;
+}
+
+.navigation {
+    width: 630px;
+    margin-left: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 14px 16px 14px 16px;
+    color: #777 !important;
+}
