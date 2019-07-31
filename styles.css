@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.container {
+    background-color: mistyrose;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
