@@ -105,19 +105,20 @@ body {
 }
 
 .sign-in {
-    border: 1px solid #4285f4;
+    border: none;
     font-weight: bold;
     outline: none;
-    background: #4285f4;
+    background-color: rgb(108, 108, 248);
     line-height: 28px;
     padding: 0 12px;
     border-radius: 2px;
-    color: white !important;
+    color: white;
     font-size: 13px;
 }
 
 .sign-in a {
     text-decoration: none;
+    color: white;
 }
 
 .sign-in a:hover {
@@ -154,4 +155,17 @@ body {
     margin-top: 10px;
     padding: 14px 16px 14px 16px;
     color: #777 !important;
+}
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto',arial,sans-serif;
+}
+
+.results {
+    color: #808080;
+    font-size: small;
+    margin: 15px 0px 22px 165px;
 }
