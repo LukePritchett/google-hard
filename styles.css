@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     font-family: arial, sans-serif;
 }
@@ -32,7 +33,7 @@ html, body {
 }
 
 .search-box {
-    display:flex;
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
@@ -115,6 +116,14 @@ html, body {
     font-size: 13px;
 }
 
+.sign-in a {
+    text-decoration: none;
+}
+
+.sign-in a:hover {
+    text-decoration: underline;
+}
+
 .navigation {
     width: 630px;
     margin-left: 155px;
@@ -137,7 +146,7 @@ html, body {
 
 .header-nav-right {
     display: flex;
-    flex-direction: row;                                    
+    flex-direction: row;
 }
 
 .nav {
