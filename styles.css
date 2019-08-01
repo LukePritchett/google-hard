@@ -122,6 +122,10 @@ html, body {
     justify-content: space-between;
 }
 
+.navigation a {
+    text-decoration: none;
+}
+
 .header-nav-left {
     display: flex;
     flex-direction: row;
@@ -129,7 +133,7 @@ html, body {
 
 .header-nav-right {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;                                    
 }
 
 .nav {
