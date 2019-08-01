@@ -126,6 +126,10 @@ html, body {
     text-decoration: none;
 }
 
+.navigation a:hover {
+    text-decoration: underline;
+}
+
 .header-nav-left {
     display: flex;
     flex-direction: row;
