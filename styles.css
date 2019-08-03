@@ -186,3 +186,7 @@ body {
     color: #1a0dab !important;
     text-decoration: none;
 }
+
+.title:hover {
+    text-decoration: underline;
+}
