@@ -190,3 +190,17 @@ body {
 .title:hover {
     text-decoration: underline;
 }
+
+.cache {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link {
+    font-size: 14px;
+    padding-top: 1px;
+    font-family: 'Roboto',arial,sans-serif;
+    color: #006621 !important;
+    text-decoration: none;
+}
