@@ -204,3 +204,13 @@ body {
     color: #006621 !important;
     text-decoration: none;
 }
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #006621;
+    margin-left: 5px;
+    cursor: pointer;
+}
