@@ -214,3 +214,14 @@ body {
     margin-left: 5px;
     cursor: pointer;
 }
+
+.description {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #545454;
+}
+
+.date {
+    color: #808080;
+}
