@@ -171,3 +171,12 @@ body {
     font-size: small;
     margin: 15px 0px 22px 165px;
 }
+
+.search {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 580px;
+    margin-left: 170px;
+    margin-bottom: 27px;
+}
