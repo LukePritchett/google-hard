@@ -225,3 +225,14 @@ body {
 .date {
     color: #808080;
 }
+
+.related-searches {
+    color: #222;
+    font-size: 18px;
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+
+.related-s {
+    margin-bottom: 20px;
+}
